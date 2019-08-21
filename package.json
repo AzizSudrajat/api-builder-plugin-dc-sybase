@@ -1,0 +1,35 @@
+{
+  "name": "api-builder-plugin-dc-sybase",
+  "version": "0.0.3",
+  "description": "API Builder Plugin Data Connector Sybase",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "npm run build:lint && npm run test",
+    "build:lint": "eslint .",
+    "build:lint:fix": "eslint . --fix",
+    "check:dependencies": "npm-check -i mock-require -i sinon -i sinon-test -i simple-mock -i tap",
+    "postinstall": "node scripts/copyconf.js"
+  },
+  "keywords": [
+    "sybase"
+  ],
+  "author": "Aziz Sudrajat",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "semver": "^6.3.0",
+    "sybase": "^1.2.1"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AzizSudrajat/api-builder-plugin-dc-sybase.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AzizSudrajat/api-builder-plugin-dc-sybase/issues"
+  },
+  "homepage": "https://github.com/AzizSudrajat/api-builder-plugin-dc-sybase#readme"
+}
