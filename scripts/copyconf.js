@@ -11,7 +11,7 @@ const srcConf = path.resolve(__dirname, '..', 'config', config);
 const projConfDir = path.resolve(projectDir, 'conf');
 const projConf = path.resolve(projConfDir, config);
 
-// this makes sure it doesn't run on a dev npm install
+// Do not copy the file on production installs.
 if (process.env.NODE_ENV === 'production') {
 	process.exit(0);
 }
