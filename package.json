@@ -1,6 +1,6 @@
 {
   "name": "api-builder-plugin-dc-sybase",
-  "version": "0.0.13",
+  "version": "0.1.6",
   "description": "API Builder Plugin Data Connector Sybase",
   "main": "lib/index.js",
   "scripts": {
