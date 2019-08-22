@@ -1,6 +1,5 @@
 {
   "_from": "api-builder-plugin-dc-sybase-r",
-  "_id": "api-builder-plugin-dc-sybase-r@0.0.1",
   "_inBundle": false,
   "_integrity": "sha512-Nc68KQtpC4hZGZxoGBNXRxZnY4FAdhHF5GxrgLILr1ls+YbL8asZCECGiwIMq6++Z9VkkTGVSFM8WKaDMBrJTw==",
   "_location": "/api-builder-plugin-dc-sybase-r",
@@ -27,9 +26,7 @@
   "_shasum": "f836ca88bb1d75cc915282e66eda241bb2f10fed",
   "_spec": "api-builder-plugin-dc-sybase-r",
   "_where": "C:\\Users\\Emerio\\Documents\\Work\\API-Builder\\coba",
-  "author": {
-    "name": "Ridwan Effendi"
-  },
+  "author": "Ridwan Effendi",
   "bugs": {
     "url": "https://github.com/AzizSudrajat/api-builder-plugin-dc-sybase/issues"
   },
@@ -63,5 +60,5 @@
     "check:dependencies": "npm-check -i mock-require -i sinon -i sinon-test -i simple-mock -i tap",
     "postinstall": "node scripts/copyconf.js"
   },
-  "version": "0.0.1"
+  "version": "0.0.2"
 }
