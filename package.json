@@ -1,58 +1,8 @@
 {
-  "_from": "api-builder-plugin-dc-sybase-r",
-  "_inBundle": false,
-  "_integrity": "sha512-Nc68KQtpC4hZGZxoGBNXRxZnY4FAdhHF5GxrgLILr1ls+YbL8asZCECGiwIMq6++Z9VkkTGVSFM8WKaDMBrJTw==",
-  "_location": "/api-builder-plugin-dc-sybase-r",
-  "_phantomChildren": {
-    "color-convert": "1.9.3",
-    "escape-string-regexp": "1.0.5",
-    "supports-color": "5.5.0"
-  },
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "api-builder-plugin-dc-sybase-r",
-    "name": "api-builder-plugin-dc-sybase-r",
-    "escapedName": "api-builder-plugin-dc-sybase-r",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/api-builder-plugin-dc-sybase-r/-/api-builder-plugin-dc-sybase-r-0.0.1.tgz",
-  "_shasum": "f836ca88bb1d75cc915282e66eda241bb2f10fed",
-  "_spec": "api-builder-plugin-dc-sybase-r",
-  "_where": "C:\\Users\\Emerio\\Documents\\Work\\API-Builder\\coba",
-  "author": "Ridwan Effendi",
-  "bugs": {
-    "url": "https://github.com/AzizSudrajat/api-builder-plugin-dc-sybase/issues"
-  },
-  "bundleDependencies": false,
-  "dependencies": {
-    "chalk": "^2.4.2",
-    "semver": "^6.3.0",
-    "sybase": "^1.2.1"
-  },
-  "deprecated": false,
-  "description": "API Builder Plugin Data Connector Sybase",
-  "devDependencies": {},
-  "directories": {
-    "lib": "lib"
-  },
-  "homepage": "https://github.com/AzizSudrajat/api-builder-plugin-dc-sybase#readme",
-  "keywords": [
-    "sybase"
-  ],
-  "license": "ISC",
-  "main": "lib/index.js",
   "name": "api-builder-plugin-dc-sybase-r",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AzizSudrajat/api-builder-plugin-dc-sybase.git"
-  },
+  "version": "0.0.4",
+  "description": "API Builder Plugin Data Connector Sybase",
+  "main": "lib/index.js",
   "scripts": {
     "build": "npm run build:lint && npm run test",
     "build:lint": "eslint .",
@@ -60,5 +10,26 @@
     "check:dependencies": "npm-check -i mock-require -i sinon -i sinon-test -i simple-mock -i tap",
     "postinstall": "node scripts/copyconf.js"
   },
-  "version": "0.0.3"
+  "keywords": [
+    "sybase"
+  ],
+  "author": "Aziz Sudrajat",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "semver": "^6.3.0",
+    "sybase": "^1.2.1"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AzizSudrajat/api-builder-plugin-dc-sybase.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AzizSudrajat/api-builder-plugin-dc-sybase/issues"
+  },
+  "homepage": "https://github.com/AzizSudrajat/api-builder-plugin-dc-sybase#readme"
 }

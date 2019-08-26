@@ -16,7 +16,6 @@ module.exports = {
 			database: 'kampus',
 			user: 'sa',
 			password: 'P@ssw0rd'
-			
 
 			// Create models based on your schema that can be used in your API.
 			// generateModelsFromSchema: true,
